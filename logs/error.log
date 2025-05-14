@@ -1,0 +1,50 @@
+2025-03-22T13:31:52.588Z | ERROR  | DB Connection Fail | MongoParseError: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+    at new ConnectionString (D:\Full Stack\Project\Split-App-main\server\node_modules\mongodb-connection-string-url\lib\index.js:86:19)
+    at parseOptions (D:\Full Stack\Project\Split-App-main\server\node_modules\mongodb\lib\connection_string.js:188:17)
+    at new MongoClient (D:\Full Stack\Project\Split-App-main\server\node_modules\mongodb\lib\mongo_client.js:46:63)
+    at D:\Full Stack\Project\Split-App-main\server\node_modules\mongoose\lib\connection.js:802:16
+    at new Promise (<anonymous>)
+    at Connection.openUri (D:\Full Stack\Project\Split-App-main\server\node_modules\mongoose\lib\connection.js:799:19)
+    at D:\Full Stack\Project\Split-App-main\server\node_modules\mongoose\lib\index.js:414:10
+    at D:\Full Stack\Project\Split-App-main\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:41:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (D:\Full Stack\Project\Split-App-main\server\node_modules\mongoose\lib\helpers\promiseOrCallback.js:40:10)
+2025-03-22T13:46:50.414Z | ERROR  | URL : /api/users/v1/login | staus : undefined | message: secretOrPrivateKey must have a value Error: secretOrPrivateKey must have a value
+    at module.exports [as sign] (D:\Full Stack\Project\Split-App-main\server\node_modules\jsonwebtoken\sign.js:111:20)
+    at exports.generateAccessToken (D:\Full Stack\Project\Split-App-main\server\helper\apiAuthentication.js:5:16)
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:78:41)
+2025-03-22T13:54:32.027Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:54:47.761Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:56:55.335Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:57:04.240Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:57:05.535Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:57:07.251Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T13:57:08.541Z | ERROR  | URL : /api/users/v1/register | staus : 400 | message: Email Id already present please login!
+2025-03-22T14:11:55.491Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:12:41.694Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:13:35.157Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:14:16.016Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-03-22T14:14:37.072Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:14:37.964Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-03-22T14:14:52.079Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:14:52.959Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-03-22T14:15:00.223Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-03-22T14:15:01.098Z | ERROR  | URL : /api/expense/v1/user/recent | staus : 400 | message: No expense present for the user
+2025-03-22T14:15:18.795Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-04-03T06:36:02.653Z | ERROR  | URL : /api/expense/v1/user | staus : 400 | message: No expense present for the user
+2025-04-03T06:36:50.690Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-04-03T06:36:58.444Z | ERROR  | URL : /api/expense/v1/group | staus : 400 | message: No expense present for the group
+2025-05-14T08:17:12.477Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:17:15.973Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:18:21.038Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:18:24.731Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:18:49.320Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:18:53.350Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
+2025-05-14T08:18:56.682Z | ERROR  | URL : /api/users/v1/login | staus : 401 | message: Invalid email Id or Password* ! Error: Invalid email Id or Password* !
+    at exports.userLogin (D:\Full Stack\Project\Split-App-main\server\components\user.js:74:23)
